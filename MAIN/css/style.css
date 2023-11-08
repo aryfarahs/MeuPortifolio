@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --pretin: #121619;
+    --branquin: #FFF8F0;
+    --princ: #4C8577;
+    --escuro: #4E6E58;
+    --claro: #9AEBA3;
+}
+
+.header {
+    background-color: var(--branquin);
+    box-shadow: 0px 0.3px 1px 1px rgb(28, 28, 28);
+    height: 100px;
+}
