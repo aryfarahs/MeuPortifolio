@@ -4,15 +4,20 @@
 }
 
 :root {
-    --pretin: #121619;
-    --branquin: #FFF8F0;
+    --pretin: #121517;
+    --branquin: #FBFBFF;
     --princ: #4C8577;
     --escuro: #4E6E58;
     --claro: #9AEBA3;
 }
 
-.header {
-    background-color: var(--branquin);
-    box-shadow: 0px 0.3px 1px 1px rgb(28, 28, 28);
-    height: 100px;
+body {
+    background-color: var(--pretin);
+    color: var(--branquin);
 }
+
+header {
+    padding: 30px;
+    box-shadow: 0px 1px 10px 1px var(--pretin);
+}
+
